@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vryx | 3D Artist & Animator</title>
+    <meta name="description"
+        content="Portfolio of Vryx (Savio Shejo), a self-taught 3D Artist and Tech Enthusiast specializing in Blender animation and modeling.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@700;900&display=swap"
+        rel="stylesheet">
+    <!-- Google's model-viewer script -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+    <div class="background-glob"></div>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Vryx</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="glitch" data-text="Savio Shejo">Savio Shejo</h1>
+                <h2 class="subtitle">3D Artist & <span class="highlight">Blender Specialist</span></h2>
+                <p class="hero-desc">Tech enthusiast and self-taught creator turning imagination into 3D reality.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="#contact" class="btn-secondary">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="model-container">
+                    <!-- Replace 'model.glb' with the name of your file -->
+                    <model-viewer src="model.glb" alt="A 3D model of a character or object" auto-rotate
+                        rotation-per-second="30deg" camera-controls ar shadow-intensity="1" loading="eager"
+                        touch-action="pan-y">
+                    </model-viewer>
+                </div>
+            </div>
+        </section>
+
+        <!-- Placeholders for other sections -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I'm <span class="highlight">Savio Shejo</span>, a tech enthusiast and self-taught 3D artist.
+                            My journey into the world of 3D began with a curiosity for how digital worlds are built.
+                            Today, I use <strong>Blender</strong> exclusively to create stunning visualizations,
+                            animations, and models.</p>
+                        <p>I believe in the power of continuous learning and pushing the boundaries of what's possible
+                            with open-source software. Whether it's a complex character sculpt or a motion graphics
+                            piece, I pour my passion into every pixel.</p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">🟠</div>
+                            <h3>Blender</h3>
+                            <p>My primary weapon of choice for all things 3D.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🧊</div>
+                            <h3>3D Modeling</h3>
+                            <p>Hard-surface and organic modeling with clean topology.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎬</div>
+                            <h3>Animation</h3>
+                            <p>Bringing static objects to life with fluid motion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image bg-neon"></div>
+                        <div class="project-info">
+                            <h3>Neon City</h3>
+                            <p>Cyberpunk Environment</p>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image bg-flow"></div>
+                        <div class="project-info">
+                            <h3>Abstract Flow</h3>
+                            <p>Motion Graphics</p>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image bg-viz"></div>
+                        <div class="project-info">
+                            <h3>Product Viz</h3>
+                            <p>Commercial Render</p>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-image bg-sculpt"></div>
+                        <div class="project-info">
+                            <h3>Character Study</h3>
+                            <p>Sculpting</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h2 class="section-title">Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Product Visualization</h3>
+                        <p>High-quality 3D renders that showcase your product in the best light. Perfect for marketing
+                            and e-commerce.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>3D Animation</h3>
+                        <p>Engaging animations for commercials, social media, or explainer videos. I bring motion to
+                            your ideas.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Game Assets</h3>
+                        <p>Optimized 3D models ready for game engines. From props to environments, I create assets that
+                            look great and run smooth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <p>Have a project in mind or just want to say hi? Feel free to reach out!</p>
+                        <ul class="contact-details">
+                            <li><strong>Email:</strong> savio.shejo@example.com</li>
+                            <li><strong>Location:</strong> World Wide Web</li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="#" aria-label="Instagram">Instagram</a>
+                            <a href="#" aria-label="ArtStation">ArtStation</a>
+                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Savio Shejo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
