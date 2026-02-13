@@ -167,24 +167,24 @@
                     <div class="contact-info">
                         <p>Have a project in mind or just want to say hi? Feel free to reach out!</p>
                         <ul class="contact-details">
-                            <li><strong>Email:</strong> savio.shejo@example.com</li>
-                            <li><strong>Location:</strong> World Wide Web</li>
+                            <li><strong>Email:</strong> savioshejo@gmail.com</li>
+                            <li><strong>Location:</strong> Kerala, India</li>
                         </ul>
                         <div class="social-links">
-                            <a href="#" aria-label="Instagram">Instagram</a>
-                            <a href="#" aria-label="ArtStation">ArtStation</a>
-                            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="https://www.instagram.com/vryx3d.info/" aria-label="Instagram">Instagram</a>
                         </div>
                     </div>
-                    <form class="contact-form">
+                    <form class="contact-form"
+                        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScyDqMbeZ_ebSDFLZhyQJHU7XqBHzxaYSwKk-qc_atYZx6OHQ/formResponse"
+                        method="POST" target="hidden_iframe" id="contact-form">
                         <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
+                            <input type="text" name="entry.605094139" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
+                            <input type="email" name="entry.2032390617" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                            <textarea name="entry.1133178051" placeholder="Your Message" rows="5" required></textarea>
                         </div>
                         <button type="submit" class="btn-primary">Send Message</button>
                     </form>
@@ -192,6 +192,19 @@
             </div>
         </section>
     </main>
+
+    <!-- Hidden iframe for form submission -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+    <!-- Confirmation Popup -->
+    <div id="confirmation-popup" class="popup-overlay">
+        <div class="popup-content">
+            <div class="popup-icon">✅</div>
+            <h3>Message Sent!</h3>
+            <p>Thanks for reaching out. I'll get back to you soon.</p>
+            <button id="close-popup" class="btn-primary">Close</button>
+        </div>
+    </div>
 
     <footer>
         <div class="container">

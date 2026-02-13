@@ -33,4 +33,41 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     });
+
+    // Contact Form Handling
+    const contactForm = document.getElementById('contact-form');
+    const iframe = document.getElementById('hidden_iframe');
+    const popup = document.getElementById('confirmation-popup');
+    const closePopupBtn = document.getElementById('close-popup');
+    let formSubmitted = false;
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', () => {
+            formSubmitted = true;
+        });
+    }
+
+    if (iframe) {
+        iframe.addEventListener('load', () => {
+            if (formSubmitted) {
+                popup.classList.add('show-popup');
+                contactForm.reset();
+                formSubmitted = false;
+            }
+        });
+    }
+
+    if (closePopupBtn) {
+        closePopupBtn.addEventListener('click', () => {
+            popup.classList.remove('show-popup');
+        });
+    }
+
+    if (popup) {
+        popup.addEventListener('click', (e) => {
+            if (e.target === popup) {
+                popup.classList.remove('show-popup');
+            }
+        });
+    }
 });
