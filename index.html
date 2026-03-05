@@ -2,217 +2,233 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vryx3d | 3D Artist & Animator</title>
-    <meta name="description"
-        content="Portfolio of vryx3d (Savio Shejo), a self-taught 3D Artist and Tech Enthusiast specializing in Blender animation and modeling.">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@700;900&display=swap"
-        rel="stylesheet">
-    <!-- Google's model-viewer script -->
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Techclaude | Digital Transformation for Growing Businesses</title>
+  <meta
+    name="description"
+    content="Techclaude helps small businesses and startups adopt digital tools, automate operations, and scale with modern AI-driven strategies."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <div class="background-glob"></div>
+  <div class="bg-orb bg-orb-1" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb-2" aria-hidden="true"></div>
 
-    <header>
-        <nav class="container">
-            <a href="#" class="logo">vryx3d</a>
-            <ul class="nav-links">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Work</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact" class="btn-primary">Contact</a></li>
-            </ul>
-            <button class="mobile-menu-btn" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section id="hero" class="hero-section">
-            <div class="container hero-content">
-                <span class="greeting">Hello, I'm</span>
-                <h1 class="glitch" data-text="Savio Shejo">Savio Shejo</h1>
-                <h2 class="subtitle">3D Artist & <span class="highlight">Blender Specialist</span></h2>
-                <p class="hero-desc">Tech enthusiast and self-taught creator turning imagination into 3D reality.</p>
-                <div class="hero-btns">
-                    <a href="#projects" class="btn-primary">View My Work</a>
-                    <a href="#contact" class="btn-secondary">Let's Talk</a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="model-container">
-                    <!-- Replace 'model.glb' with the name of your file -->
-                    <model-viewer src="model.glb" alt="A 3D model of a character or object" auto-rotate
-                        rotation-per-second="30deg" camera-controls ar shadow-intensity="1" loading="eager"
-                        touch-action="pan-y">
-                    </model-viewer>
-                </div>
-            </div>
-        </section>
-
-        <!-- Placeholders for other sections -->
-        <section id="about" class="section">
-            <div class="container">
-                <h2 class="section-title">About Me</h2>
-                <div class="about-grid">
-                    <div class="about-text">
-                        <p>I'm <span class="highlight">Savio Shejo</span>, a tech enthusiast and self-taught 3D artist.
-                            My journey into the world of 3D began with a curiosity for how digital worlds are built.
-                            Today, I use <strong>Blender</strong> exclusively to create stunning visualizations,
-                            animations, and models.</p>
-                        <p>I believe in the power of continuous learning and pushing the boundaries of what's possible
-                            with open-source software. Whether it's a complex character sculpt or a motion graphics
-                            piece, I pour my passion into every pixel.</p>
-                    </div>
-                    <div class="skills-grid">
-                        <div class="skill-card">
-                            <div class="skill-icon">🟠</div>
-                            <h3>Blender</h3>
-                            <p>My primary weapon of choice for all things 3D.</p>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-icon">🧊</div>
-                            <h3>3D Modeling</h3>
-                            <p>Hard-surface and organic modeling with clean topology.</p>
-                        </div>
-                        <div class="skill-card">
-                            <div class="skill-icon">🎬</div>
-                            <h3>Animation</h3>
-                            <p>Bringing static objects to life with fluid motion.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="section">
-            <div class="container">
-                <h2 class="section-title">Featured Projects</h2>
-                <div class="projects-grid">
-                    <!-- Project 1 -->
-                    <div class="project-card">
-                        <div class="project-image bg-neon"></div>
-                        <div class="project-info">
-                            <h3>Neon City</h3>
-                            <p>Cyberpunk Environment</p>
-                        </div>
-                    </div>
-                    <!-- Project 2 -->
-                    <div class="project-card">
-                        <div class="project-image bg-flow"></div>
-                        <div class="project-info">
-                            <h3>Abstract Flow</h3>
-                            <p>Motion Graphics</p>
-                        </div>
-                    </div>
-                    <!-- Project 3 -->
-                    <div class="project-card">
-                        <div class="project-image bg-viz"></div>
-                        <div class="project-info">
-                            <h3>Product Viz</h3>
-                            <p>Commercial Render</p>
-                        </div>
-                    </div>
-                    <!-- Project 4 -->
-                    <div class="project-card">
-                        <div class="project-image bg-sculpt"></div>
-                        <div class="project-info">
-                            <h3>Character Study</h3>
-                            <p>Sculpting</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="services" class="section">
-            <div class="container">
-                <h2 class="section-title">Services</h2>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <h3>Product Visualization</h3>
-                        <p>High-quality 3D renders that showcase your product in the best light. Perfect for marketing
-                            and e-commerce.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3>3D Animation</h3>
-                        <p>Engaging animations for commercials, social media, or explainer videos. I bring motion to
-                            your ideas.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3>Game Assets</h3>
-                        <p>Optimized 3D models ready for game engines. From props to environments, I create assets that
-                            look great and run smooth.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="section">
-            <div class="container">
-                <h2 class="section-title">Get In Touch</h2>
-                <div class="contact-wrapper">
-                    <div class="contact-info">
-                        <p>Have a project in mind or just want to say hi? Feel free to reach out!</p>
-                        <ul class="contact-details">
-                            <li><strong>Email:</strong> savioshejo@gmail.com</li>
-                            <li><strong>Location:</strong> Kerala, India</li>
-                        </ul>
-                        <div class="social-links">
-                            <a href="https://www.instagram.com/vryx3d.info/" aria-label="Instagram">Instagram</a>
-                        </div>
-                    </div>
-                    <form class="contact-form"
-                        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScyDqMbeZ_ebSDFLZhyQJHU7XqBHzxaYSwKk-qc_atYZx6OHQ/formResponse"
-                        method="POST" target="hidden_iframe" id="contact-form">
-                        <div class="form-group">
-                            <input type="text" name="entry.605094139" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" name="entry.2032390617" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="entry.1133178051" placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Hidden iframe for form submission -->
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
-
-    <!-- Confirmation Popup -->
-    <div id="confirmation-popup" class="popup-overlay">
-        <div class="popup-content">
-            <div class="popup-icon">✅</div>
-            <h3>Message Sent!</h3>
-            <p>Thanks for reaching out. I'll get back to you soon.</p>
-            <button id="close-popup" class="btn-primary">Close</button>
-        </div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home">Techclaude</a>
+      <button class="mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn btn-primary nav-cta">Book a Free Consultation</a>
     </div>
+  </header>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Savio Shejo. All rights reserved.</p>
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Digital Transformation Partner for SMBs</p>
+          <h1>Transform Your Business with Smart Digital Strategy</h1>
+          <p class="hero-sub">
+            We help small businesses automate operations, improve their online presence, and grow faster with modern
+            digital tools.
+          </p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary">Get Started</a>
+            <a href="#contact" class="btn btn-secondary">Book Consultation</a>
+          </div>
         </div>
-    </footer>
 
-    <script src="script.js"></script>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="panel card-glow">
+            <div class="panel-row">
+              <span>Workflow Automation</span>
+              <strong>+42%</strong>
+            </div>
+            <div class="panel-row">
+              <span>Lead Conversion</span>
+              <strong>+31%</strong>
+            </div>
+            <div class="panel-row">
+              <span>Manual Tasks Reduced</span>
+              <strong>-58%</strong>
+            </div>
+          </div>
+          <div class="growth-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="problems">
+      <div class="container">
+        <h2 class="section-title reveal">Why Businesses Struggle with Digital Growth</h2>
+        <div class="grid three">
+          <article class="card reveal">
+            <div class="icon">🧩</div>
+            <h3>Managing Too Many Digital Tools</h3>
+            <p>Teams juggle disconnected platforms, causing confusion, missed tasks, and inconsistent workflows.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">🗺️</div>
+            <h3>No Clear Digital Strategy</h3>
+            <p>Without a roadmap, businesses invest in tools but fail to align technology with outcomes.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">⏱️</div>
+            <h3>Time Wasted on Manual Work</h3>
+            <p>Repetitive processes slow growth and take focus away from revenue-driving priorities.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <h2 class="section-title reveal">Our Services</h2>
+        <div class="grid five">
+          <article class="card reveal">
+            <div class="icon">🎯</div>
+            <h3>Digital Strategy Consulting</h3>
+            <p>Build a practical, scalable roadmap tailored to your business goals and market.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">⚙️</div>
+            <h3>Business Automation Setup</h3>
+            <p>Automate repetitive workflows across sales, operations, and support for better efficiency.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">🌐</div>
+            <h3>Online Presence Optimization</h3>
+            <p>Improve visibility, trust, and engagement through modern digital channels and branding.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">🤝</div>
+            <h3>Customer Management Systems</h3>
+            <p>Set up tools that centralize customer data and streamline communication.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">🧠</div>
+            <h3>AI-Powered Business Insights</h3>
+            <p>Use AI analytics to identify growth opportunities, optimize campaigns, and improve decisions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <h2 class="section-title reveal">Simple Process to Transform Your Business</h2>
+        <ol class="timeline reveal">
+          <li><span>1</span> Consultation</li>
+          <li><span>2</span> Digital Analysis</li>
+          <li><span>3</span> Strategy Planning</li>
+          <li><span>4</span> Implementation</li>
+          <li><span>5</span> Growth &amp; Optimization</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title reveal">What You Gain with Techclaude</h2>
+        <div class="grid four">
+          <article class="card reveal"><div class="icon">⏳</div><h3>Save Time</h3><p>Automated systems free your team to focus on strategic work.</p></article>
+          <article class="card reveal"><div class="icon">💸</div><h3>Reduce Operational Costs</h3><p>Minimize inefficiencies and eliminate redundant manual processes.</p></article>
+          <article class="card reveal"><div class="icon">💬</div><h3>Improve Customer Engagement</h3><p>Deliver faster, more personalized communication at every touchpoint.</p></article>
+          <article class="card reveal"><div class="icon">📈</div><h3>Scale Your Business Faster</h3><p>Build a digital foundation that supports sustainable long-term growth.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="container">
+        <h2 class="section-title reveal">What Business Owners Say</h2>
+        <div class="grid three">
+          <blockquote class="card reveal testimonial">
+            “Techclaude helped us automate onboarding and cut admin time in half. We now focus on growth, not chaos.”
+            <cite>— Priya N., Startup Founder</cite>
+          </blockquote>
+          <blockquote class="card reveal testimonial">
+            “Within 90 days, we had a clearer strategy, better lead flow, and tools that actually worked together.”
+            <cite>— James K., Agency Owner</cite>
+          </blockquote>
+          <blockquote class="card reveal testimonial">
+            “Their team simplified digital marketing and CRM setup. Our response time and conversion rates improved fast.”
+            <cite>— Maria L., Retail Entrepreneur</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <div class="container cta-inner reveal">
+        <h2>Ready to Grow Your Business Digitally?</h2>
+        <a href="#contact" class="btn btn-primary">Book Your Free Consultation</a>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <h2 class="section-title">Let’s Talk About Your Growth Plan</h2>
+          <p>Email us directly at <a href="mailto:hello@techclaude.com">hello@techclaude.com</a></p>
+          <div class="socials" aria-label="social links">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="X">𝕏</a>
+            <a href="#" aria-label="Instagram">◎</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="business">Business Name</label>
+          <input id="business" name="business" type="text" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p>© Techclaude</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
